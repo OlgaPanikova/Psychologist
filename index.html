@@ -5,50 +5,212 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EvgenyPanikov</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
-      <nav class="header-nav">
-        <h1>Паников Евгений</h1>
-        <ul class="header-menu-list">
-          <li><a href="#about">Обо мне</a></li>
-          <li><a href="#services">С чем я работаю</a></li>
-          <li><a href="#articles">Полезные статьи</a></li>
-          <li><a href="#contacts">Контакты</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="header-nav">
+          <button class="burger-btn" aria-label="Открыть меню">&#9776;</button>
+          <ul class="header-menu-list">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#services">С чем работаю</a></li>
+            <li><a href="#articles">Полезные статьи</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+            <li><a href="#agreement">Согласие</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main class="main">
-      <section id="about" class="section-about">
-        <h2>Информация обо мне</h2>
-        <p>Текст обо мне и об опыте работы (фотография)</p>
-      </section>
-      <section id="services" class="section-services">
-        <h2>С чем я работаю</h2>
-        <ul>
-          <li>Когнитивная психология</li>
-          <li>Семейная терапия</li>
-          <li>Работа с детьми</li>
-        </ul>
-      </section>
-      <section id="articles" class="section-articles">
-        <h2>Полезные статьи</h2>
-        <article>
-          <h3>Как бороться с тревожными мыслями</h3>
-          <p>Текст про тревожные мысли + картинка</p>
-        </article>
-      </section>
-      <section id="contacts" class="section-contacts">
-        <h2>Контакты</h2>
-        <address>
-          <p>Паников Евгений Александрович</p>
-          <p><a href="mailto:example@example.com">example@example.com</a></p>
-          <p><a href="tel:8800223445">8800223445</a></p>
-        </address>
-      </section>
-    </main>
+
+    <section class="hero">
+      <div class="hero-content">
+        <div class="container">
+          <h1>Евгений Паников</h1>
+          <p>
+            психологическая помощь <br />
+            взрослым и подросткам
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <main class="main">
+        <section id="about" class="section-about">
+          <h2>Обо мне</h2>
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                Приветствую Вас! Меня зовут Евгений Паников. Я дипломированный
+                психолог, с 2017 года веду частную консультационную практику в
+                ключе когнитивно-поведенческой терапии.
+              </p>
+              <p>
+                Специализируюсь на оказании психологической помощи взрослым и
+                подросткам, работаю с эмоциональными и поведенческими
+                трудностями, помогая клиентам лучше понимать себя, справляться с
+                внутренними переживаниями, выстраивать более осознанную и
+                гармоничную жизнь.
+              </p>
+              <p>
+                Ранее, параллельно с ведением частной практики, работал
+                специалистом в психологических службах государственных и частных
+                образовательных учреждений г.Москвы.
+              </p>
+              <p>
+                Сегодня продолжаю активно развиваться как специалист, посещаю
+                супервизионные встречи, прохожу курсы повышения квалификации.
+              </p>
+            </div>
+            <img src="images/foto.jpeg" alt="Фотография главная" />
+          </div>
+          <div class="about-education">
+            <div class="education-text">
+              <h3>Основное профессиональное образование:</h3>
+              <p>
+                В 2008 году окончил Московский городской
+                психолого-педагогический университет по специальности
+                «Психология» (факультет Психологического консультирования,
+                кафедра Клинической психологии)
+              </p>
+              <h3>Дополнительное образование в области психотерапии:</h3>
+              <p>
+                2010–2011 — «Когнитивно-бихевиоральная психотерапия расстройств
+                аффективного спектра», ФГУ Московский НИИ Психиатрии
+              </p>
+              <p>
+                2017–2019 — «Когнитивная психотерапия эмоциональных и личностных
+                расстройств», МГППУ
+              </p>
+              <p>
+                2022–2023 — «Когнитивно-бихевиоральная психотерапия
+                эмоциональных и поведенческих расстройств у детей и подростков»,
+                МГППУ
+              </p>
+              <p>
+                2024–2025 — «Схематерапия: сертификационный курс по стандартам
+                ISST», Минский центр КПТ
+              </p>
+            </div>
+            <div class="education-content">
+              <div class="diploma-gallery">
+                <img
+                  src="images/diploma-thumb.jpg"
+                  alt="Основной диплом"
+                  class="diploma-thumb"
+                  data-full="images/dipl.jpg"
+                />
+                <img
+                  src="images/cbt2011-thumb.jpg"
+                  alt="Диплом КБТ 2011"
+                  class="diploma-thumb"
+                  data-full="images/cbt2011.jpg"
+                />
+                <img
+                  src="images/cbt2019-thumb.jpg"
+                  alt="Диплом КБТ 2019"
+                  class="diploma-thumb"
+                  data-full="images/cbt2019.jpg"
+                />
+                <img
+                  src="images/cbt2023-thumb.jpg"
+                  alt="Диплом КБТ 2023"
+                  class="diploma-thumb"
+                  data-full="images/cbt2023.jpg"
+                />
+                <img
+                  src="images/ISST-thumb.png"
+                  alt="Диплом ISST"
+                  class="diploma-thumb"
+                  data-full="images/ISST.png"
+                />
+              </div>
+            </div>
+            <div id="diploma-modal" class="modal">
+              <span class="modal-close">&times;</span
+              ><img class="modal-content" id="modal-img" alt="Diploma full" />
+            </div>
+          </div>
+        </section>
+        <section id="services" class="section-services">
+          <h2>Трудности с которыми я работаю</h2>
+          <ul>
+            <li>
+              <div class="service-item">
+                <img
+                  src="images/icon0.png"
+                  alt="Депрессия и
+              расстройства настроения"
+                />Депрессия и расстройства настроения
+              </div>
+            </li>
+            <li>
+              <div class="service-item">
+                <img src="images/icon1.png" alt="Панические атаки" />Панические
+                атаки
+              </div>
+            </li>
+            <li>
+              <div class="service-item">
+                <img
+                  src="images/icon2.png"
+                  alt="Личностные растройства"
+                />Личностные расстройства
+              </div>
+            </li>
+            <li>
+              <div class="service-item">
+                <img
+                  src="images/icon3.png"
+                  alt="Тревожные растройства и фобии"
+                />Тревожные расстройства и фобии
+              </div>
+            </li>
+            <li>
+              <div class="service-item">
+                <img src="images/icon4.png" alt="ОКР" />Обсессивно-компульсивное
+                расстройство
+              </div>
+            </li>
+            <li>
+              <div class="service-item">
+                <img
+                  src="images/icon5.png"
+                  alt="Проблемы в отношениях с людьми"
+                />Проблемы в отношениях с людьми
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section id="articles" class="section-articles">
+          <h2>Полезные статьи</h2>
+          <article>
+            <h3>Как бороться с тревожными мыслями</h3>
+            <p>Текст про тревожные мысли + картинка</p>
+          </article>
+        </section>
+        <section id="contacts" class="section-contacts">
+          <h2>Контакты</h2>
+          <address>
+            <p>Паников Евгений Александрович</p>
+            <p><a href="mailto:example@example.com">example@example.com</a></p>
+            <p><a href="tel:8800223445">8800223445</a></p>
+          </address>
+        </section>
+      </main>
+    </div>
     <footer class="footer">
-      <p>© 2025 Имя Фамилия. Все права защищены.</p>
+      <div class="container">
+        <p>© 2025 Имя Фамилия. Все права защищены.</p>
+      </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
